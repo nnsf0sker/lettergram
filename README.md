@@ -13,7 +13,7 @@
 
 Для любого сценария использования необходимо вначале клонировать репозиторий:
 
-    git clone вжик-вжик-вжик
+    git clone https://github.com/nnsf0sker/lettergram.git
     cd lettergram
     
 И создать виртуальное окружение:
