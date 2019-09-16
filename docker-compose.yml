@@ -1,0 +1,15 @@
+version: '3.1'
+
+services:
+  mongo:
+    image: mongo
+    command: --serviceExecutor adaptive
+    container_name: 'mongo'
+    ports:
+      - 27017:27017
+  lettergram:
+    build: .
+    command: python3 /app/app.py
+    container_name: 'lettergram'
+    ports:
+      - 9000:9000
